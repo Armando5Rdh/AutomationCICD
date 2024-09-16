@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Ecommerce site">
+    
+<listeners>
+    <listener class-name="TestComponents.Listeners"></listener>
+</listeners>
+
+    <test name="Submit Order">
+        <classes>
+            <class name="SeleniumCourse.LoginTestV2"/>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Error Validation">
+        <classes>
+            <class name="SeleniumCourse.ErrorValidations"/>
+        </classes>
+
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
